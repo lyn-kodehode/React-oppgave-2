@@ -5,7 +5,7 @@
   color: red;
 }
 ul {
-  list-style-image: url("./cat-figma.png");
+  list-style-image: url("/cat-figma.png");
   list-style-position: inside;
   padding-right: 2.75rem;
 }
