@@ -1,0 +1,32 @@
+.loading {
+  height: 150px;
+}
+.errorMessage {
+  color: red;
+}
+ul {
+  list-style-image: url("./cat.png");
+  list-style-position: inside;
+  padding-right: 2.75rem;
+}
+.catFactItem {
+  text-align: justify;
+  /* border: 1px solid red; */
+  background-color: bisque;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+.catFactItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px #9c9c9c;
+}
+.getMoreBtn {
+  background-color: #494949;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.getMoreBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px #9c9c9c;
+}

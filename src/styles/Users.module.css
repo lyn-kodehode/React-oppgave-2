@@ -1,0 +1,45 @@
+.usersContainer {
+  width: 45%;
+  margin: 0 auto;
+}
+.userItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  gap: 2rem;
+}
+.userItem p {
+  padding-left: 1rem;
+  font-weight: bold;
+}
+span {
+  font-weight: 400;
+}
+.userControl {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+input[type="text"] {
+  width: 180px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+}
+input[type="email"] {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+input[type="text"]::placeholder {
+  color: #999;
+}
+.addUserBtn {
+  background-color: #facb8a;
+  transition: all 0.3s ease;
+}
+.addUserBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px #d97c41;
+}
